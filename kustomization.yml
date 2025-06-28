@@ -1,0 +1,18 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+
+namespace: reminders
+
+resources:
+  - namespace.yaml
+  - config-secrets.yaml
+  - postgre-deployment.yaml
+  - backend-deployment.yaml
+  - frontend-deployment.yaml
+  - ingress.yaml
+
+images:
+  - name: andrejt12/reminders-plus-backend 
+    newTag: latest 
+  - name: andrejt12/reminders-plus-frontend
+    newTag: latest
