@@ -6,7 +6,7 @@ namespace: reminders
 resources:
   - namespace.yaml
   - config-secrets.yaml
-  - postgre-deployment.yaml
+  - postgres-deployment.yaml
   - backend-deployment.yaml
   - frontend-deployment.yaml
   - ingress.yaml
