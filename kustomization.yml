@@ -4,15 +4,15 @@ kind: Kustomization
 namespace: reminders
 
 resources:
-  - namespace.yaml
-  - config-secrets.yaml
-  - postgres-deployment.yaml
-  - backend-deployment.yaml
-  - frontend-deployment.yaml
-  - ingress.yaml
+- namespace.yaml
+- config-secrets.yaml
+- postgres-deployment.yaml
+- backend-deployment.yaml
+- frontend-deployment.yaml
+- ingress.yaml
 
 images:
-  - name: andrejt12/reminders-plus-backend 
-    newTag: latest 
-  - name: andrejt12/reminders-plus-frontend
-    newTag: latest
+- name: andrejt12/reminders-plus-backend
+  newTag: 8e79add126f0e5732d492b1bcd046d00559da865
+- name: andrejt12/reminders-plus-frontend
+  newTag: 8e79add126f0e5732d492b1bcd046d00559da865
