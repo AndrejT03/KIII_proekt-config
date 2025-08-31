@@ -13,6 +13,6 @@ resources:
 
 images:
 - name: andrejt12/reminders-plus-backend
-  newTag: 8e79add126f0e5732d492b1bcd046d00559da865
+  newTag: 81e391a9ec9faa06451fff82ebd495c4d3887248
 - name: andrejt12/reminders-plus-frontend
-  newTag: 8e79add126f0e5732d492b1bcd046d00559da865
+  newTag: 81e391a9ec9faa06451fff82ebd495c4d3887248
